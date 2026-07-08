@@ -19,6 +19,14 @@
   --paper:#FFFFFF;--mist:#EFF4F4;--line:#D5E0E0;--muted:#5C7378;
   --body:'ArialNova',Arial,sans-serif;--display:'Ethnocentric',sans-serif;--head:'Conthrax',sans-serif;
 }
+
+/* Barra de rolagem na cor da marca (discreta) */
+html{scrollbar-width:thin;scrollbar-color:var(--petrol-2) transparent}
+::-webkit-scrollbar{width:10px;height:10px}
+::-webkit-scrollbar-track{background:transparent}
+::-webkit-scrollbar-thumb{background:var(--petrol-2);border-radius:100px;border:2px solid transparent;background-clip:padding-box}
+::-webkit-scrollbar-thumb:hover{background:var(--petrol);border:2px solid transparent;background-clip:padding-box}
+
 *{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}
 html,body{overflow-x:hidden}
 body{font-family:var(--body);color:var(--ink);background:var(--paper);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
