@@ -164,7 +164,10 @@ nav.scrolled .nav-tog span{background:var(--ink)}
 @keyframes elspin{to{transform:rotate(360deg)}}
 .el-txt{font-family:var(--head);font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;color:rgba(255,255,255,.6)}
 .embed-cap{margin-top:1rem;font-family:var(--head);font-size:.72rem;letter-spacing:.02em;color:var(--muted);line-height:1.6;max-width:70ch}
-@media(max-width:680px){.embed{aspect-ratio:4/5}}
+@media(max-width:680px){
+  .phero-strip{flex-direction:column;gap:.7rem;flex-wrap:nowrap}
+  .phero-strip span{white-space:normal}
+.embed{aspect-ratio:4/5}}
 
 /* SEGURANÇA & LGPD */
 .sec-lgpd{padding:6rem 0;background:var(--ink);color:#fff;position:relative;overflow:hidden}
