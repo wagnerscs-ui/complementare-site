@@ -14,4 +14,10 @@ COPY favicon.ico /usr/share/nginx/html/favicon.ico
 COPY favicon-32.png /usr/share/nginx/html/favicon-32.png
 COPY apple-touch-icon.png /usr/share/nginx/html/apple-touch-icon.png
 
+# SEO: sitemap, robots e imagens de compartilhamento
+COPY sitemap.xml /usr/share/nginx/html/sitemap.xml
+COPY robots.txt /usr/share/nginx/html/robots.txt
+COPY og-image.jpg /usr/share/nginx/html/og-image.jpg
+COPY og-portfolio.jpg /usr/share/nginx/html/og-portfolio.jpg
+
 EXPOSE 80
