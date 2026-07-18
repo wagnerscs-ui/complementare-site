@@ -76,3 +76,44 @@ novo, com cadeado.
    o webhook estiver ativo).
 
 Pronto — sem terminal, sem FTP.
+
+---
+
+## Novidades desta versão (grande atualização)
+
+- **Performance**: as imagens saíram de dentro do HTML e viraram arquivos WebP em
+  `/img/`, com cache de 30 dias. As páginas caíram de ~4 MB para ~190 KB e o
+  carregamento no celular fica muito mais rápido.
+- **Páginas de case**: cada um dos 10 cases tem página própria em
+  `/cases/nome-do-case`, com título, descrição e imagem de compartilhamento
+  exclusivos. Ótimo para SEO e para mandar o link de um case específico a um cliente.
+- **Artigos**: seção nova em `/artigos` com 3 artigos técnicos. Publicar um artigo
+  novo = criar um arquivo em `artigos/` seguindo o modelo dos existentes e
+  adicionar a URL no `sitemap.xml`.
+- **Botão de WhatsApp flutuante** em todas as páginas.
+- **Sitemap** com as 16 URLs do site.
+
+## Instalar o Umami (analytics próprio, alinhado à LGPD)
+
+1. No Easypanel, projeto `complementare` → **+ → Templates** → procure **Umami** e instale
+   (ele cria o app + banco Postgres sozinho).
+2. Dê um domínio ao Umami, por exemplo `analytics.cprojetos.com.br`
+   (crie o registro A `analytics` → IP da VPS no seu DNS, igual fez com os outros).
+3. Entre no Umami (login padrão `admin` / `umami`, troque a senha), crie um
+   site `cprojetos.com.br` e copie o **Website ID**.
+4. Nos HTMLs, procure por `ANALYTICS (Umami)` no `<head>`, descomente a linha do
+   script e cole o seu Website ID. Faça o deploy.
+5. Os botões principais já têm eventos prontos (`data-umami-event`), então o
+   painel do Umami mostrará cliques em "Solicitar proposta" e no WhatsApp.
+
+## Google Business Profile (faça isso, é grátis e traz cliente)
+
+1. Acesse business.google.com e crie/reivindique o perfil da
+   **Complementare Projetos de Instalações**.
+2. Categoria principal: **Engenheiro** (ou "Consultor de engenharia").
+3. Endereço: Av. Alm. Júlio de Sá Bierrenbach, 200 · Bloco Atlantic · Gr. 1107 ·
+   Barra Olímpica · Rio de Janeiro.
+4. Telefone (21) 3264-2475 e site https://www.cprojetos.com.br.
+5. Suba fotos: escritório, equipe, renders dos projetos.
+6. Peça avaliação aos parceiros recorrentes (arquitetos e construtoras).
+   5 a 10 avaliações reais mudam completamente a visibilidade local.

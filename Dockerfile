@@ -5,11 +5,17 @@ FROM nginx:stable-alpine
 RUN rm /etc/nginx/conf.d/default.conf
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
-# Copia as páginas do site
+# Páginas
 COPY index.html /usr/share/nginx/html/index.html
 COPY portfolio.html /usr/share/nginx/html/portfolio.html
+COPY artigos.html /usr/share/nginx/html/artigos.html
+COPY cases/ /usr/share/nginx/html/cases/
+COPY artigos/ /usr/share/nginx/html/artigos/
 
-# Copia os ícones (favicon)
+# Imagens do site
+COPY img/ /usr/share/nginx/html/img/
+
+# Ícones (favicon)
 COPY favicon.ico /usr/share/nginx/html/favicon.ico
 COPY favicon-32.png /usr/share/nginx/html/favicon-32.png
 COPY apple-touch-icon.png /usr/share/nginx/html/apple-touch-icon.png

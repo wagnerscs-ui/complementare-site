@@ -2,4 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://www.cprojetos.com.br/</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
   <url><loc>https://www.cprojetos.com.br/portfolio</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.cprojetos.com.br/artigos</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.cprojetos.com.br/cases/casa-ma</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.cprojetos.com.br/cases/hostel-villa-25</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.cprojetos.com.br/cases/hotel-mio-venit</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.cprojetos.com.br/cases/mar-leblon</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.cprojetos.com.br/cases/marinas-do-atlantico</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.cprojetos.com.br/cases/montibello-portobello</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.cprojetos.com.br/cases/rubaiyat-rio</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.cprojetos.com.br/cases/sushi-leblon</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.cprojetos.com.br/cases/villa-da-praia-portobello</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.cprojetos.com.br/cases/visconde-corporate</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.cprojetos.com.br/artigos/aprovacao-concessionarias-rio-de-janeiro</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.cprojetos.com.br/artigos/cad-ou-bim-projeto-de-instalacoes</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.cprojetos.com.br/artigos/o-que-sao-projetos-complementares</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 </urlset>
