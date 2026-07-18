@@ -11,6 +11,11 @@ COPY portfolio.html /usr/share/nginx/html/portfolio.html
 COPY artigos.html /usr/share/nginx/html/artigos.html
 COPY cases/ /usr/share/nginx/html/cases/
 COPY artigos/ /usr/share/nginx/html/artigos/
+COPY 404.html /usr/share/nginx/html/404.html
+
+# CSS e fontes externalizados (cache compartilhado entre páginas)
+COPY css/ /usr/share/nginx/html/css/
+COPY fonts/ /usr/share/nginx/html/fonts/
 
 # Imagens do site
 COPY img/ /usr/share/nginx/html/img/
