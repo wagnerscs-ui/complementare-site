@@ -12,6 +12,7 @@ COPY artigos.html /usr/share/nginx/html/artigos.html
 COPY cases/ /usr/share/nginx/html/cases/
 COPY artigos/ /usr/share/nginx/html/artigos/
 COPY 404.html /usr/share/nginx/html/404.html
+COPY privacidade.html /usr/share/nginx/html/privacidade.html
 
 # CSS e fontes externalizados (cache compartilhado entre páginas)
 COPY css/ /usr/share/nginx/html/css/
