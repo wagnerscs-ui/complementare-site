@@ -1,7 +1,7 @@
 :root{
   --ink:#0E1A1D;--petrol:#106B78;--accent:#009E81;
   --paper:#FFFFFF;--mist:#EFF4F4;--line:#D5E0E0;--muted:#5C7378;
-  --body:'ArialNova',Arial,sans-serif;--display:'Ethnocentric',sans-serif;--head:'Conthrax',sans-serif;
+  --body:'ArialNova','ArialNova-fb',Arial,sans-serif;--display:'Ethnocentric','Ethnocentric-fb',sans-serif;--head:'Conthrax','Conthrax-fb',sans-serif;
 }
 
 /* Barra de rolagem na cor da marca (discreta) */

@@ -1,3 +1,7 @@
 @font-face{font-family:'Ethnocentric';src:url('/fonts/ethnocentric.woff2') format('woff2');font-weight:normal;font-style:normal;font-display:swap}
 @font-face{font-family:'Conthrax';src:url('/fonts/conthrax.woff2') format('woff2');font-weight:normal;font-style:normal;font-display:swap}
 @font-face{font-family:'ArialNova';src:url('/fonts/arialnova.woff2') format('woff2');font-weight:normal;font-style:normal;font-display:swap}
+
+@font-face{font-family:'Conthrax-fb';src:local('Arial'),local('Roboto'),local('Helvetica'),local('Liberation Sans');size-adjust:147.24%;ascent-override:63.03%;descent-override:18.47%;line-gap-override:0.00%}
+@font-face{font-family:'Ethnocentric-fb';src:local('Arial'),local('Roboto'),local('Helvetica'),local('Liberation Sans');size-adjust:186.71%;ascent-override:50.61%;descent-override:13.66%;line-gap-override:0.00%}
+@font-face{font-family:'ArialNova-fb';src:local('Arial'),local('Roboto'),local('Helvetica'),local('Liberation Sans');size-adjust:99.26%;ascent-override:98.92%;descent-override:22.92%;line-gap-override:0.00%}
