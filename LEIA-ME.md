@@ -33,7 +33,7 @@ por `?v=N`), `fonts/` (woff2 self-hosted), `img/`, `favicon*`, `og-*.jpg`,
 - **Imagens**: toda `<img>` tem `width`/`height` reais; fora da primeira dobra,
   `loading="lazy" decoding="async"`; apenas o LCP de cada página leva
   `fetchpriority="high"` (12 no total).
-- **Ao alterar qualquer CSS**: incremente o `?v=` nos HTMLs (cache de 30 dias). Versão atual: `?v=5`.
+- **Ao alterar qualquer CSS**: incremente o `?v=` nos HTMLs (cache de 30 dias). Versão atual: `?v=6`.
 - **Headers de segurança e CSP** ficam no `nginx.conf`. A CSP libera apenas
   Umami e Speckle; ao adicionar serviço externo novo, incluir o domínio lá
   e atualizar a página `/privacidade`.
